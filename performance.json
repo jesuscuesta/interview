@@ -1,0 +1,37 @@
+{
+	"config": {
+    "target": "http://localhost:4200",
+		"phases": [{
+				"duration": 5,
+				"arrivalRate": 5
+			},
+			{
+				"duration": 10,
+				"rampTo": 50,
+				"arrivalRate": 5
+			},
+			{
+				"duration": 20,
+				"arrivalRate": 50
+			}
+		]
+	},
+	"scenarios": [{
+		"flow": [{
+				"get": {
+					"url": "/validators"
+				}
+			},
+			{
+				"get": {
+					"url": "/emulation"
+				}
+			},
+			{
+				"get": {
+					"url": "/cookies"
+				}
+			}
+		]
+	}]
+}
