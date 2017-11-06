@@ -3,16 +3,14 @@
     "target": "http://localhost:4200",
 		"phases": [{
 				"duration": 5,
-				"arrivalRate": 5
+				"arrivalRate": 5,
+				"name": "Very fast"
 			},
 			{
 				"duration": 10,
+				"arrivalRate": 5,
 				"rampTo": 50,
-				"arrivalRate": 5
-			},
-			{
-				"duration": 20,
-				"arrivalRate": 50
+				"name": "Normal"
 			}
 		]
 	},
