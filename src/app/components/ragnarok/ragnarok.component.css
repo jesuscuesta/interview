@@ -1,0 +1,100 @@
+.decorador {
+    margin: 0 auto;
+}
+.campo {
+    height: 416px;
+    width: 544px;
+}
+
+.bridge {
+    background: url('/assets/fondo/bridge.png');
+}
+
+.ruinas {
+    background: url('/assets/fondo/ruins3.png');
+}
+
+.building {
+    background: url('/assets/fondo/building.png');
+}
+
+.campo, .terminal {
+    margin: 0 auto;
+}
+
+.heroe {
+    background: url('/assets/chars/Actor1.png');
+    height: 96px;
+    width: 125px;
+    border: 1px solid #ffffff;
+}
+
+.villano {
+    background: url('/assets/chars/Monster.png');
+    height: 96px;
+    width: 125px;
+    border: 1px solid red;
+}
+
+.vampiro {
+    background-position-x: 0px;
+}
+
+.esqueleto {
+    background-position-x: 98px;
+}
+
+.jabali {
+    background-position-x: 289px;
+}
+
+.terminal {
+    height: 100px;
+    width: 513px;
+    background-color: #000000;
+    border: 3px solid brown;
+    padding: 13px;
+    display: flex;
+}
+
+.texto {
+    padding: 10px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+.hero {
+    color: #ffffff;
+}
+
+.evil {
+    flex-direction: row-reverse;
+    color: red;
+}
+
+audio {
+    visibility: hidden;
+}
+
+button {
+    border-radius: 8px;
+    padding: 4px 16px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.finish {
+    float: right;
+}
+
+.respuestas {
+    float: left;
+}
+
+textarea {
+    resize: none;
+    background-color: darkred;
+    color: #ffffff;
+    padding: 8px;
+    width: 384px;
+ }

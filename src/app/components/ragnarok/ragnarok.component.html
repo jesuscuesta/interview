@@ -1,0 +1,21 @@
+<div class="decorador">
+  <div class="terminal evil">
+    <div class="villano"  *ngIf="preguntas" [ngClass]="preguntas[preguntaSeleccionada].img"></div>
+    <div class="texto" *ngIf="preguntas">{{preguntas[preguntaSeleccionada].pregunta}}</div>
+  </div>
+  <div class="campo" *ngIf="preguntas" [ngClass]="preguntas[preguntaSeleccionada].fondo">
+  </div>
+  <div class="terminal hero">
+    <div class="heroe"></div>
+    <div class="texto">
+      <div class="respuestas">
+        <textarea name="respuesta" cols="35" rows="3" noresize></textarea>
+      </div>
+
+      <div class="finish"><button>Aceptar</button></div>
+    </div>
+  </div>
+</div>
+<audio autoplay="autoplay" controls="controls">
+  <source src="/assets/musica/human.ogg" />
+</audio>

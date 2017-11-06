@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "pregunta": "¿Qué es un webcomponent?",
+        "img": "vampiro",
+        "fondo": "bridge"
+    },
+    {
+        "id": "2",
+        "pregunta": "¿Cuáles son las fases en el ciclo de vida de Angular?",
+        "img": "esqueleto",
+        "fondo": "ruinas"
+    },
+    {
+        "id": "3",
+        "pregunta": "¿Cuánto es 0.1 + 0.2?",
+        "img": "jabali",
+        "fondo": "building"
+    }
+]

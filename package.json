@@ -16,7 +16,7 @@
     "test": "ng test --code-coverage --watch false --reporters junit,coverage-istanbul",
     "lint": "ng lint --type-check",
     "e2e": "ng e2e",
-    "perf": "artillery -o reports/performance/performance run performance.json && artillery report reports/performance/performance",
+    "highload": "artillery -o reports/highload/highload run highload.json && artillery report reports/highload/highload",
     "doc": "./node_modules/.bin/compodoc -p tsconfig.json --hideGenerator --theme postmark",
     "doc:live": "compodoc -p tsconfig.json -s --hideGenerator --theme postmark -w -o"
   },

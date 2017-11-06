@@ -1,0 +1,41 @@
+{
+	"config": {
+		"target": "http://localhost:4200",
+		"phases": [
+			{
+				"name": "Carga rapida",
+				"duration": 5,
+				"arrivalRate": 5,
+				"rampTo": 10
+			},
+			{
+				"name": "Mas usuarios",
+				"duration": 5,
+				"arrivalRate": 10,
+				"rampTo": 50
+			}
+		]
+	},
+	"scenarios": [
+		{
+			"name": "Solo pantalla inicial",
+			"flow": [
+				{
+					"get": {
+						"url": "/"
+					}
+				}
+			]
+		},
+		{
+			"name": "Pantalla Primer enemigo",
+			"flow": [
+				{
+					"get": {
+						"url": "/noexiste"
+					}
+				}
+			]
+		}
+	]
+}
